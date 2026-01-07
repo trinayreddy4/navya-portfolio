@@ -1,20 +1,30 @@
 import React, { useState } from 'react'
 import SectionTitle from '../../components/SectionTitle/SectionTitle'
+import fintechCouncilIndia from "../../assets/certifications/fintech-council-india.png";
+import ociGenerativeAi from "../../assets/certifications/oci-2024-generative-ai.png";
+import microsoftAzureAiFundamentals from "../../assets/certifications/microsoft-azure-ai-fundamentals.png";
 
 const certifications = [
   {
-    certificationsName: 'Microsoft Azure AI Fundamentals (AI-900)',
-    imageLink: 'https://i.ibb.co/2F2nVys/1717920085362.jpg',
+    certificationsName: "Fintech Professional Certificate",
+    imageLink: fintechCouncilIndia,
     details:
-      'Built foundational knowledge of AI concepts and Azure AI services, including ML, computer vision, and NLP workloads.',
+      "Awarded by the Fintech Council of India for completing advanced coursework in Blockchain, DeFi, and a professional fintech capstone (July 29, 2024).",
   },
   {
-    certificationsName: 'Oracle Cloud Infrastructure 2023 Certified Foundations Associate',
-    imageLink: 'https://i.ibb.co/7kTrXn2/1702448585286.jpg',
+    certificationsName:
+      "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+    imageLink: ociGenerativeAi,
     details:
-      'Learned core OCI cloud concepts, architecture fundamentals, and services across compute, storage, and networking.',
+      "Validated LLM and OCI Generative AI Service knowledge, including RAG, vector search, and LangChain patterns (issued Aug 1, 2024; expires Aug 1, 2026).",
   },
-]
+  {
+    certificationsName: "Microsoft Certified: Azure AI Fundamentals",
+    imageLink: microsoftAzureAiFundamentals,
+    details:
+      "Confirmed foundational AI concepts and Azure AI services across ML, computer vision, and NLP workloads (earned Jun 24, 2024).",
+  },
+];
 
 const Certifications = () => {
   const [selectedItem, setSelectedItem] = useState(0)
