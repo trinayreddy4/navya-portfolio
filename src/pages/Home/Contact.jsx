@@ -4,20 +4,20 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle'
 const contactChannels = [
   {
     label: 'Email',
-    value: 'trinayreddy4@gmail.com',
-    href: 'mailto:trinayreddy4@gmail.com',
+    value: '2200030943cseh@gmail.com',
+    href: 'mailto:2200030943cseh@gmail.com',
     icon: 'ri-mail-line',
   },
   {
     label: 'Phone',
-    value: '+91 77993 82323',
-    href: 'tel:+917799382323',
+    value: '+91 87122 75828',
+    href: 'tel:+918712275828',
     icon: 'ri-smartphone-line',
   },
   {
     label: 'Location',
-    value: 'Vijayawada, India',
-    href: 'https://maps.google.com/?q=Vijayawada,+India',
+    value: 'Andhra Pradesh, India',
+    href: 'https://maps.google.com/?q=Andhra+Pradesh,+India',
     icon: 'ri-map-pin-line',
   },
 ]
@@ -27,14 +27,14 @@ const Contact = () => {
     <section id="contact" className="py-24">
       <SectionTitle
         eyebrow="Collaborate"
-        title="Let’s build something exceptional together"
-        description="Whether it’s a product idea, internship opportunity or a hackathon, I’m always up for meaningful collaborations."
+        title="Let’s build something impactful together"
+        description="I’m open to internships, research collaborations, and meaningful academic projects."
       />
       <div className="flex gap-12 sm:flex-col">
         <div className="w-1/2 rounded-3xl border border-white/10 bg-gradient-to-br from-[#0c1215] to-[#11252d] p-10 sm:w-full sm:p-6">
           <h3 className="text-2xl font-semibold text-white">Drop me a message</h3>
           <p className="mt-4 text-sm text-tertiary">
-            Share your challenge, your vision or simply say hello. I’ll get back within 24 hours with next steps.
+            Share your challenge, internship opportunity, or project details. I’ll respond as soon as possible.
           </p>
           <form className="mt-8 flex flex-col gap-6">
             <input
@@ -80,8 +80,15 @@ const Contact = () => {
           </div>
           <div className="mt-10 rounded-2xl border border-white/10 bg-primary/40 p-6">
             <p className="text-sm text-tertiary">
-              Prefer socials? Reach out on <a className="text-secondary" href="https://www.linkedin.com/in/trinay-reddy-malireddy-170555246" target="_blank" rel="noreferrer">LinkedIn</a>{' '}
-              or drop a DM on <a className="text-secondary" href="https://www.instagram.com/trinayreddymalireddy" target="_blank" rel="noreferrer">Instagram</a>.
+              Prefer socials? Reach out on{' '}
+              <a className="text-secondary" href="https://www.linkedin.com/in/navya-katamsetti" target="_blank" rel="noreferrer">
+                LinkedIn
+              </a>{' '}
+              or explore my{' '}
+              <a className="text-secondary" href="https://github.com/navya1727" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+              .
             </p>
           </div>
         </div>
