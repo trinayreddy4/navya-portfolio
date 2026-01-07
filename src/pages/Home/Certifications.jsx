@@ -3,35 +3,16 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle'
 
 const certifications = [
   {
-    certificationsName: 'AWS Certified Solutions Architect – Associate',
-    imageLink:
-      'https://i.ibb.co/ycqP236Q/AWS-Certified-Solutions-Architect-Associate-certificate.jpg',
-    details:
-      'Demonstrated ability to design resilient, cost-optimised architectures on AWS covering compute, networking, storage and security workloads.',
-  },
-  {
     certificationsName: 'Microsoft Azure AI Fundamentals (AI-900)',
     imageLink: 'https://i.ibb.co/2F2nVys/1717920085362.jpg',
     details:
-      'Explored responsible AI principles, Azure cognitive services and orchestration of intelligent workloads at scale.',
+      'Built foundational knowledge of AI concepts and Azure AI services, including ML, computer vision, and NLP workloads.',
   },
   {
-    certificationsName: 'MongoDB Database Administrator',
-    imageLink: 'https://i.ibb.co/pwf7rsp/1716806080305.jpg',
-    details:
-      'Mastered schema design, performance tuning and operational tooling for mission-critical document databases.',
-  },
-  {
-    certificationsName: 'MongoDB Node.js Developer Associate',
-    imageLink: 'https://i.ibb.co/drdB90d/Screenshot-from-2024-06-26-14-32-26.png',
-    details:
-      'Built resilient Node.js services with aggregation pipelines, Atlas functions and cloud-native deployment strategies.',
-  },
-  {
-    certificationsName: 'Oracle Cloud Infrastructure Foundations',
+    certificationsName: 'Oracle Cloud Infrastructure 2023 Certified Foundations Associate',
     imageLink: 'https://i.ibb.co/7kTrXn2/1702448585286.jpg',
     details:
-      'Covered OCI compute, networking, storage services and governance models for hybrid enterprise workloads.',
+      'Learned core OCI cloud concepts, architecture fundamentals, and services across compute, storage, and networking.',
   },
 ]
 
@@ -42,8 +23,8 @@ const Certifications = () => {
     <section id="credentials" className="py-24">
       <SectionTitle
         eyebrow="Credentials"
-        title="Certified across leading cloud and database ecosystems"
-        description="Continuous learning keeps me current with modern tooling so I can bring reliable, future-ready solutions to every engagement."
+        title="Certifications that reinforce my cloud foundations"
+        description="I value continuous learning to keep my cloud and AI fundamentals sharp for production-ready delivery."
       />
       <div className="flex gap-16 sm:flex-col">
         <div className="w-1/3 border-l border-white/10 sm:w-full sm:border-l-0 sm:border-t">

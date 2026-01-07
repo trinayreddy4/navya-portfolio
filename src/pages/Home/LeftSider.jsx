@@ -1,10 +1,10 @@
 import React from 'react'
 
 const links = [
-  { href: 'https://www.linkedin.com/in/trinay-reddy-malireddy-170555246', icon: 'ri-linkedin-fill', label: 'LinkedIn' },
-  { href: 'mailto:trinayreddy4@gmail.com', icon: 'ri-mail-line', label: 'Email' },
-  { href: 'https://github.com/trinayreddy4', icon: 'ri-github-fill', label: 'GitHub' },
-  { href: 'https://leetcode.com/trinayreddy4', icon: 'ri-code-s-slash-line', label: 'LeetCode' },
+  { href: 'https://www.linkedin.com/in/navya-katamsetti', icon: 'ri-linkedin-fill', label: 'LinkedIn' },
+  { href: 'mailto:2200030943cseh@gmail.com', icon: 'ri-mail-line', label: 'Email' },
+  { href: 'https://github.com/navya1727', icon: 'ri-github-fill', label: 'GitHub' },
+  { href: 'tel:+918712275828', icon: 'ri-phone-line', label: 'Mobile' },
 ]
 
 const LeftSider = () => {

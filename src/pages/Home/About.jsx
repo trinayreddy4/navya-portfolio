@@ -3,44 +3,44 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle'
 
 const focusAreas = [
   {
-    title: 'Full-stack craftsmanship',
+    title: 'Backend-focused development',
     description:
-      'Designing modular, scalable architectures with the Spring Boot and MERN stack to ship fast without compromising quality.',
+      'Designing modular Spring Boot services and REST APIs with clear contracts, role-based access, and measurable performance.',
   },
   {
-    title: 'Cloud-native mindset',
+    title: 'Cloud & DevOps foundations',
     description:
-      'Certified exposure across AWS, Azure, MongoDB Atlas and Oracle Cloud enables resilient deployments and data-first decisions.',
+      'Comfortable deploying on AWS (EC2, S3, RDS) with Docker, Git, and Linux workflows that keep releases predictable.',
   },
   {
-    title: 'Competitive problem solving',
+    title: 'Applied data modeling',
     description:
-      '1500+ algorithmic problems solved with a 3★ CodeChef rating and 1566 LeetCode peak keep my analytical edge razor sharp.',
+      'Building reliable PostgreSQL and MySQL schemas with indexing strategies to support high-volume academic workflows.',
   },
 ]
 
 const journey = [
   {
-    period: '2022 — Present',
-    title: 'B.Tech CSE (Hons.), KL University',
+    period: 'July 2022 — June 2026',
+    title: 'B.Tech Computer Science & Engineering, KL University',
     description:
-      'Specialising in computer science fundamentals with a focus on high-impact web engineering and emerging tech exploration.',
+      'CGPA 9.00 with a focus on distributed systems, software engineering, and applied cloud computing.',
   },
   {
-    period: '2023 — Present',
-    title: 'Product builder & mentor',
+    period: 'May 2023 — July 2023',
+    title: 'AWS Cloud Virtual Internship, AICTE-Eduskills (Remote)',
     description:
-      'Driving university and community initiatives from ideation to launch, mentoring peers on clean architecture and modern tooling.',
+      'Built foundational knowledge of AWS services, security best practices, and cost management for scalable cloud solutions.',
   },
   {
-    period: '2023',
-    title: 'Competitive programming journey',
-    description: 'Cracked 1500+ DSA problems across CodeChef, Codeforces and LeetCode to nurture disciplined problem solving.',
+    period: 'May 2020 — May 2022',
+    title: 'MPC, Sri Chaitanya Jr College',
+    description: 'Completed intermediate education in Mathematics, Physics, and Chemistry.',
   },
   {
-    period: '2024',
-    title: 'Multi-cloud certified',
-    description: 'Recognised by AWS, Azure, MongoDB, Google Cloud and Oracle for cloud fundamentals, data engineering and infrastructure.',
+    period: 'July 2019 — Mar 2020',
+    title: 'SSC, Sri Chaithanya Techno School',
+    description: 'Completed secondary education with a strong focus on STEM fundamentals.',
   },
 ]
 
@@ -49,8 +49,8 @@ const About = () => {
     <section id="about" className="py-24">
       <SectionTitle
         eyebrow="About"
-        title="Blending engineering discipline with design intuition"
-        description="I obsess over building products that feel intentional—from resilient backend foundations to pixel-perfect user experiences."
+        title="Building reliable systems with a learner’s mindset"
+        description="I love crafting well-architected services and pragmatic interfaces that make academic workflows effortless."
       />
       <div className="flex items-start gap-12 sm:flex-col">
         <div className="w-1/2 sm:w-full">
@@ -58,13 +58,13 @@ const About = () => {
             <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(102,252,241,0.08),_transparent_60%)]" />
             <img
               className="mx-auto h-48 w-48 rounded-full border-4 border-secondary/40 object-cover"
-              src="https://avatars.githubusercontent.com/u/109901688?v=4"
-              alt="Portrait of Trinay Reddy Malireddy"
+              src="https://api.dicebear.com/7.x/initials/svg?seed=Navya%20Katamsetti"
+              alt="Portrait of Navya Devi Sushma Sri Katamsetti"
             />
             <p className="mt-10 text-lg text-tertiary">
-              Beyond the stack, I am an articulate communicator and team collaborator who thrives in fast-paced, impact-driven
-              environments. I love architecting delightful interfaces, streamlining developer workflows and ensuring every feature
-              is backed by measurable value.
+              I enjoy turning requirements into thoughtfully designed systems, collaborating with mentors and peers, and shipping
+              features that are measurable, secure, and easy to maintain. My focus is on building reliable academic tools that
+              simplify grading, content delivery, and collaboration.
             </p>
           </div>
         </div>

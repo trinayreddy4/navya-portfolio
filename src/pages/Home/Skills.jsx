@@ -3,24 +3,28 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle'
 
 const skillGroups = [
   {
-    title: 'Core languages',
-    items: ['JavaScript (ES2023)', 'TypeScript', 'Python', 'Java'],
+    title: 'Programming languages',
+    items: ['Java', 'JavaScript', 'SQL', 'Bash'],
   },
   {
-    title: 'Frameworks & libraries',
-    items: ['Spring Boot','React', 'Next.js', 'Langchain','Redux Toolkit', 'Express.js'],
+    title: 'Backend',
+    items: ['Spring Boot', 'REST APIs', 'Microservices', 'JWT Authentication'],
+  },
+  {
+    title: 'Frontend',
+    items: ['React.js', 'HTML', 'CSS'],
   },
   {
     title: 'Databases',
-    items: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis'],
+    items: ['PostgreSQL', 'MySQL'],
   },
   {
-    title: 'Cloud & DevOps',
-    items: ['AWS', 'Azure', 'GCP', 'Docker', 'GitHub Actions'],
+    title: 'DevOps & Cloud',
+    items: ['AWS (EC2, S3, Route 53, Load Balancer)', 'Docker', 'Git', 'Linux'],
   },
   {
-    title: 'Design & productivity',
-    items: ['N8N Agentic AI','Figma', 'Framer', 'Notion', 'Jira'],
+    title: 'Testing & tools',
+    items: ['Postman', 'VS Code', 'IntelliJ IDEA'],
   },
 ]
 
@@ -29,8 +33,8 @@ const Skills = () => {
     <section id="skills" className="py-24">
       <SectionTitle
         eyebrow="Toolbox"
-        title="Technologies I rely on to ship quality at speed"
-        description="A well-curated stack lets me focus on solving the right problems, not fighting the tools."
+        title="Skills that support full-stack delivery"
+        description="A focused toolkit that helps me build secure APIs, reliable databases, and responsive interfaces."
       />
       <div className="grid grid-cols-3 gap-8 sm:grid-cols-1">
         {skillGroups.map((group) => (

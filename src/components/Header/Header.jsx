@@ -15,7 +15,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur bg-primary/80 border-b border-white/5">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-8 py-5 sm:px-5">
         <a href="#top" className="text-2xl font-semibold tracking-[0.5rem] text-secondary">
-          TR
+          NK
         </a>
         <nav className="flex items-center gap-10 sm:hidden">
           {navItems.map((item) => (
@@ -28,12 +28,12 @@ const Header = () => {
             </a>
           ))}
           <a
-            href="https://drive.google.com/file/d/1H2kfPAIqfzirmbtMLH4vLOM0ZkfXAurw/view?usp=sharing"
+            href="https://github.com/navya1727"
             target="_blank"
             rel="noreferrer"
             className="rounded-full border border-secondary px-5 py-2 text-sm font-semibold text-secondary transition hover:bg-secondary hover:text-primary"
           >
-            Resume
+            GitHub
           </a>
         </nav>
         <button
@@ -57,12 +57,12 @@ const Header = () => {
             </a>
           ))}
           <a
-            href="https://drive.google.com/file/d/1H2kfPAIqfzirmbtMLH4vLOM0ZkfXAurw/view?usp=sharing"
+            href="https://github.com/navya1727"
             target="_blank"
             rel="noreferrer"
             className="rounded-full border border-secondary px-5 py-2 text-center text-sm font-semibold text-secondary"
           >
-            Resume
+            GitHub
           </a>
         </div>
       )}

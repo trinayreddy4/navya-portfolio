@@ -3,57 +3,45 @@ import SectionTitle from '../../components/SectionTitle/SectionTitle'
 
 const projects = [
   {
-    title: 'Soundsid',
+    title: 'Smart Grading Assistant System',
     description:
-      'Soundsid is a Leading Audio Streaming and Distribution Platform which has nearly 1000+ Clients. Developed using Spring Boot, Lives in AWS',
-    tech: ['Next.js', 'TypeScript', 'Spring Boot', 'MySQL','AWS'],
-    link: 'https://www.soundsid.com',
+      'Built a distributed Spring Boot backend with OpenAI-powered grading, plagiarism detection, and role-based REST APIs.',
+    tech: ['Java', 'Spring Boot', 'OpenAI API', 'PostgreSQL', 'AWS'],
+    link: 'https://github.com/navya1727',
   },
   {
-    title: 'KL Samyak',
-    description:'KL Samyak is a National Level Techno Fest which is Organized by KL University. Developed Using Node.js Techstack. Dockerized',
-    tech: ['Node.js', 'React', 'Tailwind CSS', 'REST APIs','Express.js'],
-    link: 'https://github.com/trinayreddy4',
-  },
-  {
-    title: 'AlgoPlayground',
+    title: 'Learning Management System (LMS)',
     description:
-      'Interactive visualiser that demystifies complex data structures & algorithms, incorporating live problem walkthroughs and editor integrations for CodeChef, LeetCode and Codeforces.',
-    tech: ['TypeScript', 'Redux Toolkit', 'Express'],
-    link: 'https://github.com/trinayreddy4',
+      'Developed a full-stack LMS with JWT-secured roles, scalable file storage, and optimized PostgreSQL schemas.',
+    tech: ['Java', 'Spring Boot', 'React.js', 'PostgreSQL', 'AWS S3'],
+    link: 'https://github.com/navya1727',
   },
 ]
 
 const profiles = [
   {
-    platform: 'Codeforces',
-    stats: 'Specialist profile with regular participation in Division contests.',
-    link: 'https://codeforces.com/profile/trinayreddy4',
-    icon: 'ri-code-box-line',
-  },
-  {
-    platform: 'CodeChef',
-    stats: '3★ rating with 1500+ problems solved across multiple difficulty levels.',
-    link: 'https://www.codechef.com/users/trinayreddy4',
-    icon: 'ri-trophy-line',
-  },
-  {
-    platform: 'LeetCode',
-    stats: '1566 rating with consistent streaks across algorithm, SQL and system design tracks.',
-    link: 'https://leetcode.com/trinayreddy4',
-    icon: 'ri-braces-line',
+    platform: 'LinkedIn',
+    stats: 'Connect for internships, collaborations, and academic projects.',
+    link: 'https://www.linkedin.com/in/navya-katamsetti',
+    icon: 'ri-linkedin-line',
   },
   {
     platform: 'GitHub',
-    stats: 'Open-source contributions, hackathon prototypes and reusable starter kits.',
-    link: 'https://github.com/trinayreddy4',
+    stats: 'Source code for academic builds and backend prototypes.',
+    link: 'https://github.com/navya1727',
     icon: 'ri-github-line',
   },
   {
-    platform: 'LinkedIn',
-    stats: 'Let’s connect for collaborations, internships and speaking opportunities.',
-    link: 'https://www.linkedin.com/in/trinay-reddy-malireddy-170555246',
-    icon: 'ri-linkedin-line',
+    platform: 'Email',
+    stats: 'Reach me directly for project discussions or opportunities.',
+    link: 'mailto:2200030943cseh@gmail.com',
+    icon: 'ri-mail-line',
+  },
+  {
+    platform: 'Mobile',
+    stats: '+91 87122 75828 for urgent queries or updates.',
+    link: 'tel:+918712275828',
+    icon: 'ri-phone-line',
   },
 ]
 
@@ -61,9 +49,9 @@ const CodingProfiles = () => {
   return (
     <section id="projects" className="py-24">
       <SectionTitle
-        eyebrow="Work & Community"
-        title="Featured builds and active coding footprints"
-        description="A quick tour through the products I loved building and the communities that keep me sharp."
+        eyebrow="Projects"
+        title="Academic builds that showcase my backend focus"
+        description="Selected projects that highlight scalable architectures, secure APIs, and production-ready cloud deployments."
       />
       <div className="grid grid-cols-3 gap-8 sm:grid-cols-1">
         {projects.map((project) => (
@@ -92,7 +80,7 @@ const CodingProfiles = () => {
         ))}
       </div>
       <div className="mt-16 rounded-3xl border border-white/10 bg-white/5 p-8">
-        <h3 className="text-sm uppercase tracking-[0.4rem] text-secondary">Coding playgrounds</h3>
+        <h3 className="text-sm uppercase tracking-[0.4rem] text-secondary">Connect & collaborate</h3>
         <div className="mt-6 grid grid-cols-5 gap-6 sm:grid-cols-1">
           {profiles.map((profile) => (
             <a

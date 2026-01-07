@@ -1,9 +1,9 @@
 import React from 'react'
 
 const stats = [
-  { label: 'Years of building', value: '3+' },
-  { label: 'Global certifications', value: '5+' },
-  { label: 'DSA problems solved', value: '1500+' },
+  { label: 'CGPA', value: '9.00' },
+  { label: 'Academic projects', value: '2' },
+  { label: 'Cloud certifications', value: '2' },
 ]
 
 const Intro = () => {
@@ -15,30 +15,30 @@ const Intro = () => {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(102,252,241,0.15),_transparent_50%)]" />
       <p className="text-sm uppercase tracking-[0.6rem] text-secondary">Portfolio 2025</p>
       <h1 className="mt-6 text-6xl font-semibold text-white sm:text-3xl">
-        Hi, I&apos;m <span className="text-secondary">Trinay Reddy Malireddy</span>
+        Hi, I&apos;m <span className="text-secondary">Navya Devi Sushma Sri Katamsetti</span>
       </h1>
       <h2 className="mt-4 max-w-2xl text-3xl font-medium text-tertiary sm:text-xl">
-        Full-stack engineer crafting immersive, performant web products that blend delightful UX with resilient architecture.
+        Full-stack engineer focused on resilient backend systems, clean APIs, and delightful user experiences.
       </h2>
       <p className="mt-6 max-w-2xl text-lg text-tertiary sm:text-base">
-        A fourth-year B.Tech CSE (Hons.) student at KL University specialising in the MERN stack, TypeScript, Spring Boot and Cloud Native
-        ecosystems. I love translating ambitious ideas into production-ready platforms, while consistently growing
-        my problem-solving toolkit through competitive programming.
+        I&apos;m a B.Tech Computer Science & Engineering student at KL University with hands-on experience in Java, Spring Boot, React, and
+        AWS. I enjoy building scalable academic platforms, optimizing data workflows, and delivering reliable, testable APIs for real
+        users.
       </p>
       <div className="mt-10 flex items-center gap-6 sm:flex-col sm:items-start">
         <a
-          href="mailto:trinayreddy4@gmail.com"
+          href="mailto:2200030943cseh@gmail.com"
           className="rounded-full bg-secondary px-10 py-3 text-sm font-semibold uppercase tracking-[0.3rem] text-primary transition hover:-translate-y-1 hover:shadow-[0_15px_30px_rgba(102,252,241,0.25)]"
         >
           Let&apos;s collaborate
         </a>
         <a
-          href="https://drive.google.com/file/d/1is3HEF9Eb3ocg5cg35Iq9_nsE2wFfzNy/view?usp=drive_link"
+          href="https://github.com/navya1727"
           target="_blank"
           rel="noreferrer"
           className="rounded-full border border-secondary px-10 py-3 text-sm font-semibold uppercase tracking-[0.3rem] text-secondary transition hover:bg-secondary/10"
         >
-          View resume
+          View GitHub
         </a>
       </div>
       <div className="mt-14 grid grid-cols-3 gap-6 sm:grid-cols-1">
